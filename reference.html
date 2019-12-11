@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Page</title>
+    <link rel="stylesheet" type"text/css" href="style.css">
+  </head>
+  <body>
+
+    <h1>Linux Reference Page</h1>
+    <table class="table2">
+	<tr>
+	  <th>Element</th>
+	  <th>Description</th>
+	  <th>Example</th>
+	</tr>
+	<tr>
+	  <td>uname -a</td>
+	  <td>This command gives the specs of the device you are currently on</td>
+	  <td>uname -a --&gt Linux rpi11 4.19.75-v7+ #1270 SMP Tue Sep 24 18:45:11 BST 2019 armv7l GNU/Linux</td>
+	</tr>
+	<tr>
+          <td>Echo</td>
+          <td>Types the words on to the channel</td>
+          <td>sp1b@rpi11:~ $ echo hello world</td>
+        </tr>
+	<tr>
+          <td>date</td>
+          <td>Gives the real time and date to the second</td>
+          <td>sp1b@rpi11:~ $ date Tue 03 Dec 2019 12:07:14 PM PST</td>
+        </tr>
+	<tr>
+          <td>hostname</td>
+          <td>Gives the name of the device</td>
+          <td>sp1b@rpi11:~ $ hostname rpi11</td>
+        </tr>
+	<tr>
+          <td>arch</td>
+          <td>Gives the processor's model</td>
+          <td>sp1b@rpi11:~ $ arch armv7l</td>
+        </tr>
+	<tr>
+          <td>uptime</td>
+          <td>Gives the amount of time and resources used by the users in the machine</td>
+          <td>sp1b@rpi11:~ $ uptime  12:19:18 up 1 day,  4:59,  2 users,  load average: 0.02, 0.01, 0.00</td>
+        </tr>
+	<tr>
+          <td>who</td>
+          <td>Gives information about which user is on the device</td>
+          <td>sp1b@rpi11:~ $ who
+	      sp1a     pts/0        2019-12-03 11:53 (172.19.32.60)
+	      sp1b     pts/1        2019-12-03 12:03 (172.19.32.52)
+	  </td>
+        </tr>
+	<tr>
+          <td>yes</td>
+          <td> infinitely repeats the string</td>
+          <td> yes yes yes...</td>
+        </tr>
+	<tr>
+          <td>man ls</td>
+          <td>Gives the information of files</td>
+          <td>Mandatory arguments to long options are mandatory for short options too.
+
+		       -a, --all
+		              do not ignore entries starting with .
+
+		      	-A, --almost-all
+		              do not list implied . and ..
+
+		       --author
+		              with -l, print the author of each file
+
+		       -b, --escape
+		              print C-style escapes for nongraphic characters
+
+		       --block-size=SIZE
+		              with -l, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE  for‐
+		              mat below</td>
+        </tr>
+	<tr>
+          <td>w</td>
+          <td>Gives the time of login and how long they went idle</td>
+          <td>sp1b@rpi11:~ $ w
+		 12:23:09 up 1 day,  5:03,  2 users,  load average: 0.00, 0.00, 0.00
+		USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+		sp1a     pts/0    172.19.32.60     11:53   11:57   0.45s  0.34s -bash
+		sp1b     pts/1    172.19.32.52     12:03    1.00s  0.35s  0.03s w</td>
+        </tr>
+    </table>
+    <p><a href="http:/sp1b/index.html"> Home Page</a></p>
+    <br>
+  </body>
+</html>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Page</title>
+  </head>
+  <body>
+
+    <h1>Linux Reference Guide</h1>
+    
+    <table>
+        	<th>I play overwatch</th>
+
+
+    </table>
+
+    <li>Genji</li>
+    <li>Zenyatta</li>
+    <li>Ana</li>
+    <br>
+    <li><a href="http:/sp1b/index.html"> Home Page</a></li>
+
+  </body>
+</html>
